@@ -1,0 +1,40 @@
++====================+====================+====================================+
+| Launch Setup Clock | Launch Hold Clock  | Pin                                |
++====================+====================+====================================+
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM_sequential_main_state_reg[2]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM_sequential_main_state_reg[1]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM_sequential_main_state_reg[0]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[26]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[0]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[29]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[23]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[30]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[21]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[25]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[31]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[27]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[28]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[7]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[13]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[6]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[11]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[16]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[22]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[24]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[32]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[20]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[14]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[15]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[9]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[2]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[1]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[12]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[5]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[17]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[18]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[19]/CE       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[4]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[3]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[8]/CE        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_sample_counter_reg[10]/CE       |
++--------------------+--------------------+------------------------------------+

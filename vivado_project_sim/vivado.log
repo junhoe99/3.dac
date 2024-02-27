@@ -1,0 +1,490 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Feb 23 14:07:15 2024
+# Process ID: 11576
+# Current directory: C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9168 C:\Project\PROF\3_dac_adc_triggered_read\vivado_project_sim\vivado_project_sim.xpr
+# Log file: C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado.log
+# Journal file: C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim\vivado.jou
+# Running On: FIR, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 17005 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_sim' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [Device 21-403] Loading part xc7a75tfgg484-1
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1909.340 ; gain = 780.109
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\xem7320_adc.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\testbench\sim_xem7320.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+generate_target all [get_files C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/fifo_generator_0/fifo_generator_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_generator_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_generator_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fifo_generator_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fifo_generator_0'...
+export_ip_user_files -of_objects [get_files C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/fifo_generator_0/fifo_generator_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/fifo_generator_0/fifo_generator_0.xci] -directory C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.ip_user_files/sim_scripts -ip_user_files_dir C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.ip_user_files -ipstatic_source_dir C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.cache/compile_simlib/modelsim} {questa=C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.cache/compile_simlib/questa} {riviera=C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.cache/compile_simlib/riviera} {activehdl=C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset fifo_generator_0
+set_property top fifo_generator_0 [get_fileset fifo_generator_0]
+move_files -fileset [get_fileset fifo_generator_0] [get_files -of_objects [get_fileset sources_1] C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target all [get_files C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/enc_clk/enc_clk.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'enc_clk'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'enc_clk'...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\xem7320_adc.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\testbench\sim_xem7320.v:]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'enc_clk'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'enc_clk'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'enc_clk'...
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_xem7320'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_xem7320' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_xem7320_vlog.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk/enc_clk_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc_clk_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk/enc_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/selectio_wiz_0/selectio_wiz_0_selectio_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selectio_wiz_0_selectio_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/selectio_wiz_0/selectio_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selectio_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okHost.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okHost
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okPipeOut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okPipeOut
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okTriggerIn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okTriggerIn
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okWireIn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okWireIn
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okWireOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okWireOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-dco-ltc2264-12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_dco
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-enc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_enc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-frame.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_frame
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-phy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_phy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy_dac_spi_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_dac_spi_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xem7320_adc
+WARNING: [VRFC 10-3380] identifier 'main_idle' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v:133]
+WARNING: [VRFC 10-3380] identifier 'phy_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v:260]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_xem7320
+WARNING: [VRFC 10-5024] signed/unsigned conversion for real expression [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:238]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:362]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:364]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:366]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:368]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:383]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:385]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:387]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:389]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj sim_xem7320_vhdl.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_xem7320_behav xil_defaultlib.sim_xem7320 xil_defaultlib.glbl -log elaborate.log"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_xem7320_behav xil_defaultlib.sim_xem7320 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'okHU' [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:62]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 3 for port 'okHU' [C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v:394]
+WARNING: [VRFC 10-5024] signed/unsigned conversion for real expression [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:238]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.OBUF(IOSTANDARD="LVCMOS33")
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE",SR...
+Compiling module xil_defaultlib.selectio_wiz_0_selectio_wiz_defa...
+Compiling module xil_defaultlib.selectio_wiz_0
+Compiling module xil_defaultlib.syzygy_dac_spi_module
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module xil_defaultlib.enc_clk_clk_wiz
+Compiling module xil_defaultlib.enc_clk
+Compiling module unisims_ver.IBUFDS(DIFF_TERM="TRUE",IOSTANDA...
+Compiling module unisims_ver.IDELAYE2(HIGH_PERFORMANCE_MODE="...
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1967.441 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1967.441 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_xem7320'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_xem7320' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_xem7320_vlog.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+"xvhdl --incr --relax -prj sim_xem7320_vhdl.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_xem7320_behav xil_defaultlib.sim_xem7320 xil_defaultlib.glbl -log elaborate.log"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_xem7320_behav xil_defaultlib.sim_xem7320 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'okHU' [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:62]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 3 for port 'okHU' [C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v:394]
+WARNING: [VRFC 10-5024] signed/unsigned conversion for real expression [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:238]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.OBUF(IOSTANDARD="LVCMOS33")
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE",SR...
+Compiling module xil_defaultlib.selectio_wiz_0_selectio_wiz_defa...
+Compiling module xil_defaultlib.selectio_wiz_0
+Compiling module xil_defaultlib.syzygy_dac_spi_module
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module xil_defaultlib.enc_clk_clk_wiz
+Compiling module xil_defaultlib.enc_clk
+Compiling module unisims_ver.IBUFDS(DIFF_TERM="TRUE",IOSTANDA...
+Compiling module unisims_ver.IDELAYE2(HIGH_PERFORMANCE_MODE="...
+Compiling module unisims_ver.ISERDESE2(DATA_WIDTH=8,INTERFACE...
+Compiling module xil_defaultlib.syzygy_adc_phy
+Compiling module unisims_ver.BUFIO
+Compiling module unisims_ver.BUFR(BUFR_DIVIDE="4")
+Compiling module xil_defaultlib.syzygy_adc_dco
+Compiling module xil_defaultlib.syzygy_adc_frame
+Compiling module unisims_ver.ODDR
+Compiling module unisims_ver.OBUFDS
+Compiling module xil_defaultlib.syzygy_adc_enc
+Compiling module unisims_ver.IDELAYCTRL_default
+Compiling module xil_defaultlib.syzygy_adc_top
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_sync_stag...
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_bhv_ver_a...
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_CONV_VER(...
+Compiling module fifo_generator_v13_2_9.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.okHost
+Compiling module xil_defaultlib.okWireOR
+Compiling module xil_defaultlib.okTriggerIn
+Compiling module xil_defaultlib.okWireIn
+Compiling module xil_defaultlib.okPipeOut
+Compiling module xil_defaultlib.xem7320_adc
+Compiling module xil_defaultlib.sim_xem7320
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_xem7320_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 1967.441 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '18' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_xem7320_behav -key {Behavioral:sim_1:Functional:sim_xem7320} -tclbatch {sim_xem7320.tcl} -view {C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/sim_xem7320_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/sim_xem7320_behav.wcfg
+source sim_xem7320.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_xem7320_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:27 . Memory (MB): peak = 1999.766 ; gain = 32.324
+run 100 us
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2005.852 ; gain = 6.086
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\xem7320_adc.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\testbench\sim_xem7320.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\xem7320_adc.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\testbench\sim_xem7320.v:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_xem7320'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_xem7320' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_xem7320_vlog.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk/enc_clk_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc_clk_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk/enc_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/selectio_wiz_0/selectio_wiz_0_selectio_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selectio_wiz_0_selectio_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/selectio_wiz_0/selectio_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selectio_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okHost.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okHost
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okPipeOut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okPipeOut
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okTriggerIn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okTriggerIn
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okWireIn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okWireIn
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okWireOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okWireOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-dco-ltc2264-12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_dco
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-enc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_enc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-frame.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_frame
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-phy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_phy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy_dac_spi_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_dac_spi_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xem7320_adc
+WARNING: [VRFC 10-3380] identifier 'phy_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v:263]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_xem7320
+WARNING: [VRFC 10-5024] signed/unsigned conversion for real expression [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:238]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:362]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:364]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:366]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:368]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:383]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:385]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:387]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:389]
+"xvhdl --incr --relax -prj sim_xem7320_vhdl.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 3081.062 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sim_xem7320'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_xem7320_behav xil_defaultlib.sim_xem7320 xil_defaultlib.glbl -log elaborate.log"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_xem7320_behav xil_defaultlib.sim_xem7320 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'okHU' [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:62]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 3 for port 'okHU' [C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v:461]
+WARNING: [VRFC 10-5024] signed/unsigned conversion for real expression [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:238]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.OBUF(IOSTANDARD="LVCMOS33")
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE",SR...
+Compiling module xil_defaultlib.selectio_wiz_0_selectio_wiz_defa...
+Compiling module xil_defaultlib.selectio_wiz_0
+Compiling module xil_defaultlib.syzygy_dac_spi_module
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module xil_defaultlib.enc_clk_clk_wiz
+Compiling module xil_defaultlib.enc_clk
+Compiling module unisims_ver.IBUFDS(DIFF_TERM="TRUE",IOSTANDA...
+Compiling module unisims_ver.IDELAYE2(HIGH_PERFORMANCE_MODE="...
+Compiling module unisims_ver.ISERDESE2(DATA_WIDTH=8,INTERFACE...
+Compiling module xil_defaultlib.syzygy_adc_phy
+Compiling module unisims_ver.BUFIO
+Compiling module unisims_ver.BUFR(BUFR_DIVIDE="4")
+Compiling module xil_defaultlib.syzygy_adc_dco
+Compiling module xil_defaultlib.syzygy_adc_frame
+Compiling module unisims_ver.ODDR
+Compiling module unisims_ver.OBUFDS
+Compiling module xil_defaultlib.syzygy_adc_enc
+Compiling module unisims_ver.IDELAYCTRL_default
+Compiling module xil_defaultlib.syzygy_adc_top
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_sync_stag...
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_bhv_ver_a...
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_CONV_VER(...
+Compiling module fifo_generator_v13_2_9.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.okHost
+Compiling module xil_defaultlib.okWireOR
+Compiling module xil_defaultlib.okTriggerIn
+Compiling module xil_defaultlib.okWireIn
+Compiling module xil_defaultlib.okPipeOut
+Compiling module xil_defaultlib.xem7320_adc
+Compiling module xil_defaultlib.sim_xem7320
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_xem7320_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:23 . Memory (MB): peak = 3081.062 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '24' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:24 . Memory (MB): peak = 3081.062 ; gain = 0.000
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:33 . Memory (MB): peak = 3081.062 ; gain = 0.000
+run 100 us
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\xem7320_adc.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\syzygy_dac_spi_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\testbench\sim_xem7320.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\xem7320_adc.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\syzygy_dac_spi_module.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Project\PROF\3_dac_adc_triggered_read\gateware\testbench\sim_xem7320.v:]

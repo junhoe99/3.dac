@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov 22 13:10:18 2023
+# Process ID: 12144
+# Current directory: C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_sim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15728 C:\Projects\2023\Single_Tx_Rx_System\3_dac_adc_triggered_read\vivado_project_sim\vivado_project_sim.xpr
+# Log file: C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_sim/vivado.log
+# Journal file: C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_sim\vivado.jou
+# Running On: BOOK-07G3AHJS47, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 33888 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_sim/sim_xem7320_behav.wcfg
+source sim_xem7320.tcl
+run 100 us
+run 100 us
+close_sim

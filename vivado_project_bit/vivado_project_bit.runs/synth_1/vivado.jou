@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov 22 00:15:13 2023
+# Process ID: 43068
+# Current directory: C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.runs/synth_1
+# Command line: vivado.exe -log xem7320_adc.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xem7320_adc.tcl
+# Log file: C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.runs/synth_1/xem7320_adc.vds
+# Journal file: C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.runs/synth_1\vivado.jou
+# Running On: BOOK-07G3AHJS47, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 33888 MB
+#-----------------------------------------------------------
+source xem7320_adc.tcl -notrace

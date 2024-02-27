@@ -1,0 +1,50 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk/enc_clk_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc_clk_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk/enc_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/selectio_wiz_0/selectio_wiz_0_selectio_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selectio_wiz_0_selectio_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/selectio_wiz_0/selectio_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selectio_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okHost.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okHost
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okPipeOut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okPipeOut
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okTriggerIn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okTriggerIn
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okWireIn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okWireIn
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/oksim/okWireOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module okWireOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-dco-ltc2264-12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_dco
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-enc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_enc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-frame.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_frame
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-phy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_phy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy-adc-top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_adc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/syzygy_dac_spi_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syzygy_dac_spi_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xem7320_adc
+WARNING: [VRFC 10-3380] identifier 'phy_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v:263]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_xem7320
+WARNING: [VRFC 10-5024] signed/unsigned conversion for real expression [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:238]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:362]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:364]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:366]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:368]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:383]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:385]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:387]
+WARNING: [VRFC 10-3380] identifier 'hi_clk' is used before its declaration [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:389]

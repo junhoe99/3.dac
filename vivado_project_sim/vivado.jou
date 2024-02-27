@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Feb 23 14:07:15 2024
+# Process ID: 11576
+# Current directory: C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9168 C:\Project\PROF\3_dac_adc_triggered_read\vivado_project_sim\vivado_project_sim.xpr
+# Log file: C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado.log
+# Journal file: C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim\vivado.jou
+# Running On: FIR, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 17005 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.xpr
+update_compile_order -fileset sources_1
+generate_target all [get_files C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/fifo_generator_0/fifo_generator_0.xci]
+export_ip_user_files -of_objects [get_files C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/fifo_generator_0/fifo_generator_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/fifo_generator_0/fifo_generator_0.xci] -directory C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.ip_user_files/sim_scripts -ip_user_files_dir C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.ip_user_files -ipstatic_source_dir C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.cache/compile_simlib/modelsim} {questa=C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.cache/compile_simlib/questa} {riviera=C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.cache/compile_simlib/riviera} {activehdl=C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/vivado_project_sim.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset fifo_generator_0
+set_property top fifo_generator_0 [get_fileset fifo_generator_0]
+move_files -fileset [get_fileset fifo_generator_0] [get_files -of_objects [get_fileset sources_1] C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target all [get_files C:/Project/PROF/3_dac_adc_triggered_read/gateware/ip/enc_clk/enc_clk.xci]
+launch_simulation
+launch_simulation
+open_wave_config C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_sim/sim_xem7320_behav.wcfg
+source sim_xem7320.tcl
+run 100 us
+relaunch_sim
+run 100 us

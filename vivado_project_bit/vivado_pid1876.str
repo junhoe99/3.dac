@@ -1,0 +1,945 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:14:34 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 1876
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Feb 27 15:38:10 KST 2024
+Time zone: 	Korean Standard Time (Asia/Seoul)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2880x1920
+Local screen bounds: x = 0, y = 0, width = 2880, height = 1824
+Screen resolution (DPI): 200
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=24
+Scale size: 48
+OS font scaling: 200%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+Java executable: 	C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	heech
+User home directory: C:/Users/heech
+User working directory: C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2023.2
+RDI_DATADIR: C:/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: C:/Users/heech/AppData/Roaming/Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: C:/Users/heech/AppData/Roaming/Xilinx/Vivado/2023.2/
+Vivado layouts directory: C:/Users/heech/AppData/Roaming/Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado.log
+Vivado journal file: 	C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado.jou
+Engine tmp dir: 	C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/.Xil/Vivado-1876-FIR
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2023.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent18184 "C:\Project\PROF\3_dac_adc_triggered_read\vivado_project_bit\vivado_project_bit.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2023.2/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_INSTALLVERSION: 2023.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2023.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2023.2/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: C:/Xilinx/Vivado/2023.2/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vivado/2023.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2023.2/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Project\PROF\3_dac_adc_triggered_read\vivado_project_bit:FIR-02-27-2024Tue_15-37-27.61
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2023.2/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2023.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2023.2
+_RDI_BINROOT: C:\Xilinx\Vivado\2023.2\bin
+_RDI_CWD: C:\Project\PROF\3_dac_adc_triggered_read\vivado_project_bit
+okFP_SDK: C:\Program Files\Opal Kelly\FrontPanelUSB\API
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 778 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1367 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Project\PROF\3_dac_adc_triggered_read\vivado_project_bit\vivado_project_bit.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 87 MB. Current time: 2/27/24, 3:38:11 PM KST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 85 MB. Current time: 2/27/24, 3:38:26 PM KST
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 127 MB (+130285kb) [00:00:43]
+// [Engine Memory]: 1,107 MB (+1009019kb) [00:00:43]
+// [Engine Memory]: 1,165 MB (+3327kb) [00:00:49]
+// WARNING: HEventQueue.dispatchEvent() is taking  9647 ms.
+// Tcl Message: open_project C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Projects/2023/Single_Tx_Rx_System/3_dac_adc_triggered_read/vivado_project_bit' since last save. 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'. 
+// [GUI Memory]: 151 MB (+18652kb) [00:00:51]
+// WARNING: HEventQueue.dispatchEvent() is taking  1997 ms.
+// [GUI Memory]: 167 MB (+9424kb) [00:00:53]
+// WARNING: HEventQueue.dispatchEvent() is taking  1102 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 1515.203 ; gain = 391.938 
+// Project name: vivado_project_bit; location: C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit; part: xc7a75tfgg484-1
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("xem7320_adc.v", 1134, 223); // ad (xem7320_adc.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac_"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 52 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), adc_impl : syzygy_adc_top (syzygy-adc-top.v)]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), adc_impl : syzygy_adc_top (syzygy-adc-top.v)]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), dac_spi_inst : syzygy_dac_spi_module (syzygy_dac_spi_module.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("xem7320_adc.v", 1083, 431); // ad (xem7320_adc.v)
+// Elapsed time: 15 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 32 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 16 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 20 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 144 seconds
+selectCodeEditor("xem7320_adc.v", 434, 456); // ad (xem7320_adc.v)
+// [GUI Memory]: 177 MB (+899kb) [00:08:18]
+// Elapsed time: 1200 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "dac_top"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// Tcl Command: 'file mkdir C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new'
+dismissDialog("Create Source File"); // m (dialog1)
+// Tcl Message: file mkdir C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c (dialog0)
+// Tcl Message: close [ open C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new/dac_top.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new/dac_top.v 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,204 MB. GUI used memory: 98 MB. Current time: 2/27/24, 4:05:18 PM KST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // p (dialog2)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 26m:46s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 26m:50s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 26m:52s
+// Elapsed Time for: 'L.f': 26m:56s
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dac_top (dac_top.v)]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dac_top (dac_top.v)]", 15, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("dac_top.v", 487, 366); // ad (dac_top.v)
+typeControlKey((HResource) null, "dac_top.v", 'v'); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 772, 574); // ad (dac_top.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), phy_pll : clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dac_top.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xem7320_adc.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 35 seconds
+selectCodeEditor("xem7320_adc.v", 230, 90); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 919, 257); // ad (xem7320_adc.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 28m:08s
+// Elapsed Time for: 'L.f': 28m:12s
+// Elapsed time: 25 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "signal_gen"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // m (dialog4)
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // c (dialog3)
+// Tcl Message: close [ open C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new/signal_gen.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new/signal_gen.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // p (dialog5)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 28m:48s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 28m:52s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signal_gen (signal_gen.v)]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 28m:54s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 28m:58s
+selectCodeEditor("xem7320_adc.v", 689, 471); // ad (xem7320_adc.v)
+typeControlKey((HResource) null, "xem7320_adc.v", 'v'); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 214, 344); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 246, 349); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 412, 355); // ad (xem7320_adc.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "top", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "top"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("xem7320_adc.v", 724, 193); // ad (xem7320_adc.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 29m:24s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 29m:28s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 29m:30s
+// Elapsed Time for: 'L.f': 29m:34s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 29m:36s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 29m:38s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 29m:40s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 29m:44s
+// Elapsed time: 30 seconds
+selectCodeEditor("xem7320_adc.v", 486, 333); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 456, 411); // ad (xem7320_adc.v)
+// Elapsed time: 40 seconds
+typeControlKey((HResource) null, "xem7320_adc.v", 'v'); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 229, 266); // ad (xem7320_adc.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("xem7320_adc.v", 3, 276); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 48, 269); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 82, 261, false, false, false, true, false); // ad (xem7320_adc.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("xem7320_adc.v", 412, 458); // ad (xem7320_adc.v)
+// Elapsed time: 12 seconds
+selectCodeEditor("xem7320_adc.v", 280, 417); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 158, 419); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 279, 457); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 142, 458); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 737, 433); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 275, 491); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 245, 490); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 177, 449); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 296, 482); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 181, 426); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 278, 531); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 159, 522); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 52, 563); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 160, 564); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 158, 534); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 157, 565); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 46, 603); // ad (xem7320_adc.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("xem7320_adc.v", 472, 595); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 599, 621); // ad (xem7320_adc.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 32m:32s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 32m:36s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 32m:38s
+// Elapsed Time for: 'L.f': 32m:40s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("xem7320_adc.v", 342, 305); // ad (xem7320_adc.v)
+// Elapsed Time for: 'L.f': 32m:42s
+selectCodeEditor("xem7320_adc.v", 585, 487); // ad (xem7320_adc.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("xem7320_adc.v", 621, 452); // ad (xem7320_adc.v)
+// Elapsed Time for: 'L.f': 32m:44s
+selectCodeEditor("xem7320_adc.v", 651, 504); // ad (xem7320_adc.v)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 32m:48s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 32m:51s
+// Elapsed Time for: 'L.f': 32m:52s
+selectCodeEditor("xem7320_adc.v", 323, 235); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 68, 294); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 389, 437); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 463, 459); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 476, 479); // ad (xem7320_adc.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 33m:08s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 33m:12s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, xem7320_adc.v]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("xem7320_adc.v", 271, 241); // ad (xem7320_adc.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, xem7320_adc.v]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, xem7320_adc.v]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // f (PAResourceItoN.MsgView_CRITICAL_WARNINGS): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_WARNING_MESSAGES): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_INFORMATION_MESSAGES): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: No error. ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectCodeEditor("xem7320_adc.v", 1122, 487); // ad (xem7320_adc.v)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, syzygy_adc_top (syzygy-adc-top.v)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, syzygy_adc_top (syzygy-adc-top.v), adc_phy1_impl : syzygy_adc_phy (syzygy-adc-phy.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signal_gen (signal_gen.v)]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signal_gen (signal_gen.v)]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("signal_gen.v", 631, 668); // ad (signal_gen.v)
+typeControlKey((HResource) null, "signal_gen.v", 'v'); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 363, 198); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 46, 269); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 121, 267, false, false, false, true, false); // ad (signal_gen.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("signal_gen.v", 526, 315); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 598, 486); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1014, 596); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1, 236); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 26, 235, false, false, false, true, false); // ad (signal_gen.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("signal_gen.v", 456, 612); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1157, 564); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1157, 566); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 34m:34s
+// Elapsed Time for: 'L.f': 34m:38s
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xem7320_adc.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ep", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 362 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ok"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "okHost"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "okHost"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "okHost"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("xem7320_adc.v", 857, 413); // ad (xem7320_adc.v)
+typeControlKey((HResource) null, "xem7320_adc.v", 'v'); // ad (xem7320_adc.v)
+// Elapsed time: 12 seconds
+selectCodeEditor("xem7320_adc.v", 533, 484); // ad (xem7320_adc.v)
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("xem7320_adc.v", 47, 309); // ad (xem7320_adc.v)
+typeControlKey((HResource) null, "xem7320_adc.v", 'c'); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 981, 604); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 992, 568); // ad (xem7320_adc.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("xem7320_adc.v", 619, 397); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 624, 354); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 633, 375); // ad (xem7320_adc.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("xem7320_adc.v", 3, 55); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 836, 482); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 5, 7); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 368, 348); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 0, 163); // ad (xem7320_adc.v)
+typeControlKey((HResource) null, "xem7320_adc.v", 'c'); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 526, 270); // ad (xem7320_adc.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("xem7320_adc.v", 4, 54); // ad (xem7320_adc.v)
+typeControlKey((HResource) null, "xem7320_adc.v", 'v'); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 865, 656); // ad (xem7320_adc.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 42m:56s
+// Elapsed Time for: 'L.f': 43m:00s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 43m:02s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 43m:04s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 43m:06s
+// Elapsed Time for: 'L.f': 43m:08s
+// Elapsed time: 15 seconds
+selectCodeEditor("xem7320_adc.v", 169, 200); // ad (xem7320_adc.v)
+selectCodeEditor("xem7320_adc.v", 281, 260); // ad (xem7320_adc.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 43m:14s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 43m:18s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 43m:20s
+// Elapsed Time for: 'L.f': 43m:24s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signal_gen_top (signal_gen.v)]", 16, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signal_gen_top (signal_gen.v)]", 16, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signal_gen_top (signal_gen.v), wi03 : okWireIn (okWireIn.v)]", 21, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("signal_gen.v", 206, 380); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 565, 322); // ad (signal_gen.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "top", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "top"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("signal_gen.v", 565, 266); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 43m:46s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 43m:50s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 43m:52s
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v)]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v), wi00 : okWireIn (okWireIn.v)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 43m:56s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v), wi00 : okWireIn (okWireIn.v)]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+dismissDialog("Unable to Open File"); // R.a (dialog6)
+// Elapsed time: 524 seconds
+selectCodeEditor("signal_gen.v", 456, 434); // ad (signal_gen.v)
+// Elapsed time: 15 seconds
+selectCodeEditor("signal_gen.v", 554, 339); // ad (signal_gen.v)
+// Elapsed time: 34 seconds
+selectCodeEditor("signal_gen.v", 26, 240); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 23, 277); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 22, 311); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 25, 352); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 21, 382); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 22, 426); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 21, 445); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 24, 481); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 24, 521); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 22, 570); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 26, 605); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 228, 595); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 53m:44s
+selectCodeEditor("signal_gen.v", 5, 230); // ad (signal_gen.v)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 53m:48s
+selectCodeEditor("signal_gen.v", 711, 325); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 53m:50s
+selectCodeEditor("signal_gen.v", 730, 478); // ad (signal_gen.v)
+// Elapsed Time for: 'L.f': 53m:54s
+selectCodeEditor("signal_gen.v", 2, 348); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 3, 345); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 120, 338, false, false, false, true, false); // ad (signal_gen.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("signal_gen.v", 999, 414); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1000, 404); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1014, 370); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 988, 288); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 0, 419); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 5, 416, false, false, false, true, false); // ad (signal_gen.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("signal_gen.v", 940, 378); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1063, 497); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1081, 519); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 0, 484); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 16, 157, false, false, false, true, false); // ad (signal_gen.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("signal_gen.v", 673, 568); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 945, 129); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 857, 525); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 54m:42s
+// Elapsed Time for: 'L.f': 54m:46s
+// Elapsed time: 10 seconds
+selectCodeEditor("signal_gen.v", 86, 563); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 440, 574); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 54m:56s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 55m:00s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 55m:02s
+// Elapsed Time for: 'L.f': 55m:06s
+// Elapsed time: 20 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v), szg_dac : dac_top (dac_top.v)]", 11, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("signal_gen.v", 757, 692); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 803, 646); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 92, 129); // ad (signal_gen.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("signal_gen.v", 1012, 343); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 55m:42s
+// Elapsed Time for: 'L.f': 55m:46s
+// Elapsed time: 11 seconds
+selectCodeEditor("signal_gen.v", 6, 415); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 32, 196, false, false, false, true, false); // ad (signal_gen.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("signal_gen.v", 631, 593); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 658, 562); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 55m:58s
+selectCodeEditor("signal_gen.v", 653, 547); // ad (signal_gen.v)
+// Elapsed Time for: 'L.f': 56m:02s
+selectCodeEditor("signal_gen.v", 653, 547); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 4, 84); // ad (signal_gen.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("signal_gen.v", 32, 597, false, false, false, true, false); // ad (signal_gen.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("signal_gen.v", 667, 465); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 56m:26s
+// Elapsed Time for: 'L.f': 56m:30s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,218 MB. GUI used memory: 101 MB. Current time: 2/27/24, 4:35:20 PM KST
+// Elapsed time: 49 seconds
+selectCodeEditor("signal_gen.v", 460, 441); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1356, 576); // ad (signal_gen.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v), dac_top : dac_top (dac_top.v)]", 11, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 46 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "dds_fp"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // m (dialog8)
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c (dialog7)
+// Tcl Message: close [ open C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new/dds_fp.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new/dds_fp.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // p (dialog9)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 58m:15s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 58m:18s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dds_fp (dds_fp.v)]", 24, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 58m:20s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dds_fp (dds_fp.v)]", 24, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dds_fp (dds_fp.v)]", 24, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed Time for: 'L.f': 58m:24s
+selectCodeEditor("dds_fp.v", 697, 392); // ad (dds_fp.v)
+typeControlKey((HResource) null, "dds_fp.v", 'v'); // ad (dds_fp.v)
+selectCodeEditor("dds_fp.v", 162, 457); // ad (dds_fp.v)
+selectCodeEditor("dds_fp.v", 352, 457); // ad (dds_fp.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "signal_gen.v", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("signal_gen.v", 1227, 248); // ad (signal_gen.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "syzygy"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("signal_gen.v", 452, 383); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1275, 372); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 27, 413); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 22, 453); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 21, 487); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 29, 529); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 26, 558); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 22, 606); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 690, 614); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 59m:14s
+// Elapsed Time for: 'L.f': 59m:18s
+// Elapsed time: 10 seconds
+selectCodeEditor("signal_gen.v", 1121, 501); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1126, 506); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1128, 548); // ad (signal_gen.v)
+selectCodeEditor("signal_gen.v", 1128, 548); // ad (signal_gen.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 59m:34s
+// Elapsed Time for: 'L.f': 59m:38s
+// Elapsed time: 19 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dds"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), adc_impl : syzygy_adc_top (syzygy-adc-top.v)]", 15, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), adc_impl : syzygy_adc_top (syzygy-adc-top.v), adc_phy1_impl : syzygy_adc_phy (syzygy-adc-phy.v)]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), adc_impl : syzygy_adc_top (syzygy-adc-top.v)]", 15, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), adc_impl : syzygy_adc_top (syzygy-adc-top.v)]", 15, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v), dac_top : dac_top (dac_top.v)]", 11, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), signal_gen : signal_gen (signal_gen.v), dac_top : dac_top (dac_top.v)]", 11, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dds"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("dac_top.v", 87, 705); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 84, 704); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 244, 707); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 771, 576); // ad (dac_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:00m:08s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:00m:13s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 01h:00m:14s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 01h:00m:18s
+// Elapsed time: 22 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, syzygy_dac_top (dac_top.v)]", 24); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("dac_top.v", 720, 565); // ad (dac_top.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "am"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("dac_top.v", 5, 594); // ad (dac_top.v)
+// Elapsed time: 13 seconds
+selectCodeEditor("dac_top.v", 7, 200, false, false, false, true, false); // ad (dac_top.v) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ao (RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS)
+selectCodeEditor("dac_top.v", 684, 255); // ad (dac_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:00m:56s
+selectCodeEditor("dac_top.v", 766, 222); // ad (dac_top.v)
+// Elapsed Time for: 'L.f': 01h:01m:00s
+// Elapsed time: 20 seconds
+selectCodeEditor("dac_top.v", 83, 168); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 81, 571); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 83, 534); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 649, 573); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 652, 514); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 941, 291); // ad (dac_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:01m:30s
+// Elapsed Time for: 'L.f': 01h:01m:34s
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), dac_spi_inst : syzygy_dac_spi_module (syzygy_dac_spi_module.v)]", 13, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), dac_spi_inst : syzygy_dac_spi_module (syzygy_dac_spi_module.v)]", 13, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, syzygy_dac_top (dac_top.v)]", 24, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, syzygy_dac_top (dac_top.v)]", 24, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("dac_top.v", 820, 424); // ad (dac_top.v)
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dac_spi"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, syzygy_dac_top (dac_top.v)]", 24); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("dac_top.v", 85, 484); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 754, 572); // ad (dac_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:02m:40s
+// Elapsed Time for: 'L.f': 01h:02m:45s
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), dac_spi_inst : syzygy_dac_spi_module (syzygy_dac_spi_module.v)]", 13, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xem7320_adc (xem7320_adc.v), dac_spi_inst : syzygy_dac_spi_module (syzygy_dac_spi_module.v)]", 13, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("syzygy_dac_spi_module.v", 81, 415); // ad (syzygy_dac_spi_module.v)
+typeControlKey((HResource) null, "syzygy_dac_spi_module.v", 'c'); // ad (syzygy_dac_spi_module.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, syzygy_dac_top (dac_top.v)]", 24, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, syzygy_dac_top (dac_top.v)]", 24, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("dac_top.v", 50, 411); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 515, 57); // ad (dac_top.v)
+typeControlKey((HResource) null, "dac_top.v", 'v'); // ad (dac_top.v)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "syzygy_dac_spi_module.v", 6); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dac_top.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "syzygy_dac_spi_module.v", 6); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dac_top.v", 5); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 107 seconds
+selectCodeEditor("dac_top.v", 61, 499); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 469, 98); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 584, 200); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 578, 203); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 685, 552); // ad (dac_top.v)
+typeControlKey((HResource) null, "dac_top.v", 'v'); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 420, 551); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 635, 600); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 577, 233); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 571, 613); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 578, 587); // ad (dac_top.v)
+typeControlKey((HResource) null, "dac_top.v", 'v'); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 661, 637); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 581, 274); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 579, 637); // ad (dac_top.v)
+typeControlKey((HResource) null, "dac_top.v", 'v'); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 690, 670); // ad (dac_top.v)
+selectCodeEditor("dac_top.v", 725, 386); // ad (dac_top.v)
+// Elapsed time: 38 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "dac_control"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // m (dialog11)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 1 ; dac_control.v ; xil_defaultlib ; <Local to Project>", 0, "dac_control.v", 2); // aP (PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "dac_controller"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // m (dialog12)
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 22 seconds
+dismissDialog("Add Sources"); // c (dialog10)
+// Tcl Message: close [ open C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new/dac_controller.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Project/PROF/3_dac_adc_triggered_read/vivado_project_bit/vivado_project_bit.srcs/sources_1/new/dac_controller.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)

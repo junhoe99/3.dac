@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk" --include "../../../../vivado_project_sim.ip_user_files/ipstatic" --include "../../../../../gateware/oksim" \
+"../../../../../../SZG-ADC-LTC2264-12.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../../../SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk/enc_clk_clk_wiz.v" \
+"../../../../../../SZG-ADC-LTC2264-12.gen/sources_1/ip/enc_clk/enc_clk.v" \
+"../../../../../gateware/ip/selectio_wiz_0/selectio_wiz_0_selectio_wiz.v" \
+"../../../../../gateware/ip/selectio_wiz_0/selectio_wiz_0.v" \
+"../../../../../gateware/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../../gateware/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../../gateware/oksim/okHost.v" \
+"../../../../../gateware/oksim/okPipeOut.v" \
+"../../../../../gateware/oksim/okTriggerIn.v" \
+"../../../../../gateware/oksim/okWireIn.v" \
+"../../../../../gateware/oksim/okWireOR.v" \
+"../../../../../gateware/syzygy-adc-dco-ltc2264-12.v" \
+"../../../../../gateware/syzygy-adc-enc.v" \
+"../../../../../gateware/syzygy-adc-frame.v" \
+"../../../../../gateware/syzygy-adc-phy.v" \
+"../../../../../gateware/syzygy-adc-top.v" \
+"../../../../../gateware/syzygy_dac_spi_module.v" \
+"../../../../../gateware/xem7320_adc.v" \
+"../../../../../gateware/testbench/sim_xem7320.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

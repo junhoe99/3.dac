@@ -1,0 +1,54 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_xem7320_behav xil_defaultlib.sim_xem7320 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'okHU' [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:62]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 3 for port 'okHU' [C:/Project/PROF/3_dac_adc_triggered_read/gateware/xem7320_adc.v:461]
+WARNING: [VRFC 10-5024] signed/unsigned conversion for real expression [C:/Project/PROF/3_dac_adc_triggered_read/gateware/testbench/sim_xem7320.v:238]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.OBUF(IOSTANDARD="LVCMOS33")
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE",SR...
+Compiling module xil_defaultlib.selectio_wiz_0_selectio_wiz_defa...
+Compiling module xil_defaultlib.selectio_wiz_0
+Compiling module xil_defaultlib.syzygy_dac_spi_module
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module xil_defaultlib.enc_clk_clk_wiz
+Compiling module xil_defaultlib.enc_clk
+Compiling module unisims_ver.IBUFDS(DIFF_TERM="TRUE",IOSTANDA...
+Compiling module unisims_ver.IDELAYE2(HIGH_PERFORMANCE_MODE="...
+Compiling module unisims_ver.ISERDESE2(DATA_WIDTH=8,INTERFACE...
+Compiling module xil_defaultlib.syzygy_adc_phy
+Compiling module unisims_ver.BUFIO
+Compiling module unisims_ver.BUFR(BUFR_DIVIDE="4")
+Compiling module xil_defaultlib.syzygy_adc_dco
+Compiling module xil_defaultlib.syzygy_adc_frame
+Compiling module unisims_ver.ODDR
+Compiling module unisims_ver.OBUFDS
+Compiling module xil_defaultlib.syzygy_adc_enc
+Compiling module unisims_ver.IDELAYCTRL_default
+Compiling module xil_defaultlib.syzygy_adc_top
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_sync_stag...
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_bhv_ver_a...
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_CONV_VER(...
+Compiling module fifo_generator_v13_2_9.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.okHost
+Compiling module xil_defaultlib.okWireOR
+Compiling module xil_defaultlib.okTriggerIn
+Compiling module xil_defaultlib.okWireIn
+Compiling module xil_defaultlib.okPipeOut
+Compiling module xil_defaultlib.xem7320_adc
+Compiling module xil_defaultlib.sim_xem7320
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_xem7320_behav

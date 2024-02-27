@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_xem7320_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_xem7320" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="166.400000 us"></ZoomStartTime>
+      <ZoomEndTime time="187.133540 us"></ZoomEndTime>
+      <Cursor1Time time="56.691513 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="321"></NameColumnWidth>
+      <ValueColumnWidth column_width="235"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="164" />
+   <wvobject fp_name="/sim_xem7320/okUH" type="array">
+      <obj_property name="ElementShortName">okUH[4:0]</obj_property>
+      <obj_property name="ObjectShortName">okUH[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/okHU" type="array">
+      <obj_property name="ElementShortName">okHU[2:0]</obj_property>
+      <obj_property name="ObjectShortName">okHU[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/okUHU" type="array">
+      <obj_property name="ElementShortName">okUHU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">okUHU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/okAA" type="logic">
+      <obj_property name="ElementShortName">okAA</obj_property>
+      <obj_property name="ObjectShortName">okAA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/sys_clkp" type="logic">
+      <obj_property name="ElementShortName">sys_clkp</obj_property>
+      <obj_property name="ObjectShortName">sys_clkp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/sys_clkn" type="logic">
+      <obj_property name="ElementShortName">sys_clkn</obj_property>
+      <obj_property name="ObjectShortName">sys_clkn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_out_1p" type="array">
+      <obj_property name="ElementShortName">adc_out_1p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out_1p[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_out_1n" type="array">
+      <obj_property name="ElementShortName">adc_out_1n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out_1n[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_out_2p" type="array">
+      <obj_property name="ElementShortName">adc_out_2p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out_2p[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_out_2n" type="array">
+      <obj_property name="ElementShortName">adc_out_2n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out_2n[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_dco_p" type="logic">
+      <obj_property name="ElementShortName">adc_dco_p</obj_property>
+      <obj_property name="ObjectShortName">adc_dco_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_dco_n" type="logic">
+      <obj_property name="ElementShortName">adc_dco_n</obj_property>
+      <obj_property name="ObjectShortName">adc_dco_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_fr_p" type="logic">
+      <obj_property name="ElementShortName">adc_fr_p</obj_property>
+      <obj_property name="ObjectShortName">adc_fr_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_fr_n" type="logic">
+      <obj_property name="ElementShortName">adc_fr_n</obj_property>
+      <obj_property name="ObjectShortName">adc_fr_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_encode_p" type="logic">
+      <obj_property name="ElementShortName">adc_encode_p</obj_property>
+      <obj_property name="ObjectShortName">adc_encode_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_encode_n" type="logic">
+      <obj_property name="ElementShortName">adc_encode_n</obj_property>
+      <obj_property name="ObjectShortName">adc_encode_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_sdo" type="logic">
+      <obj_property name="ElementShortName">adc_sdo</obj_property>
+      <obj_property name="ObjectShortName">adc_sdo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_sdi" type="logic">
+      <obj_property name="ElementShortName">adc_sdi</obj_property>
+      <obj_property name="ObjectShortName">adc_sdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_cs_n" type="logic">
+      <obj_property name="ElementShortName">adc_cs_n</obj_property>
+      <obj_property name="ObjectShortName">adc_cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_sck" type="logic">
+      <obj_property name="ElementShortName">adc_sck</obj_property>
+      <obj_property name="ObjectShortName">adc_sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/dac_data" type="array">
+      <obj_property name="ElementShortName">dac_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/dac_clk" type="logic">
+      <obj_property name="ElementShortName">dac_clk</obj_property>
+      <obj_property name="ObjectShortName">dac_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/dac_reset_pinmd" type="logic">
+      <obj_property name="ElementShortName">dac_reset_pinmd</obj_property>
+      <obj_property name="ObjectShortName">dac_reset_pinmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/dac_sclk" type="logic">
+      <obj_property name="ElementShortName">dac_sclk</obj_property>
+      <obj_property name="ObjectShortName">dac_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/dac_sdio" type="logic">
+      <obj_property name="ElementShortName">dac_sdio</obj_property>
+      <obj_property name="ObjectShortName">dac_sdio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/dac_cs_n" type="logic">
+      <obj_property name="ElementShortName">dac_cs_n</obj_property>
+      <obj_property name="ObjectShortName">dac_cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/m_dbg_signal" type="array">
+      <obj_property name="ElementShortName">m_dbg_signal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_dbg_signal[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/pipeIn" type="array">
+      <obj_property name="ElementShortName">pipeIn[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeIn[0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/pipeOut" type="array">
+      <obj_property name="ElementShortName">pipeOut[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeOut[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/u32Address" type="array">
+      <obj_property name="ElementShortName">u32Address[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">u32Address[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/u32Data" type="array">
+      <obj_property name="ElementShortName">u32Data[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">u32Data[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/u32Count" type="array">
+      <obj_property name="ElementShortName">u32Count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">u32Count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/NO_MASK" type="array">
+      <obj_property name="ElementShortName">NO_MASK[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NO_MASK[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/MODE_LFSR" type="array">
+      <obj_property name="ElementShortName">MODE_LFSR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_LFSR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/MODE_COUNTER" type="array">
+      <obj_property name="ElementShortName">MODE_COUNTER[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_COUNTER[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/MODE_OFF" type="array">
+      <obj_property name="ElementShortName">MODE_OFF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_OFF[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/MODE_CONTINUOUS" type="array">
+      <obj_property name="ElementShortName">MODE_CONTINUOUS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_CONTINUOUS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/MODE_PIPED" type="array">
+      <obj_property name="ElementShortName">MODE_PIPED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_PIPED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/ep01value" type="array">
+      <obj_property name="ElementShortName">ep01value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ep01value[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/ep20value" type="array">
+      <obj_property name="ElementShortName">ep20value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ep20value[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/mode" type="array">
+      <obj_property name="ElementShortName">mode[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/ReadPipe" type="array">
+      <obj_property name="ElementShortName">ReadPipe[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadPipe[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/RegOutData" type="array">
+      <obj_property name="ElementShortName">RegOutData[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegOutData[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/RegInData" type="array">
+      <obj_property name="ElementShortName">RegInData[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegInData[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/RegAddresses" type="array">
+      <obj_property name="ElementShortName">RegAddresses[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegAddresses[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/rand_error" type="array">
+      <obj_property name="ElementShortName">rand_error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rand_error[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/trig_error" type="logic">
+      <obj_property name="ElementShortName">trig_error</obj_property>
+      <obj_property name="ObjectShortName">trig_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/errorSim" type="array">
+      <obj_property name="ElementShortName">errorSim[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errorSim[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_dco_p_tmp" type="logic">
+      <obj_property name="ElementShortName">adc_dco_p_tmp</obj_property>
+      <obj_property name="ObjectShortName">adc_dco_p_tmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/adc_dco_n_tmp" type="logic">
+      <obj_property name="ElementShortName">adc_dco_n_tmp</obj_property>
+      <obj_property name="ObjectShortName">adc_dco_n_tmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/sine_lut" type="array">
+      <obj_property name="ElementShortName">sine_lut[0:1023][11:0]</obj_property>
+      <obj_property name="ObjectShortName">sine_lut[0:1023][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/file_handle" type="array">
+      <obj_property name="ElementShortName">file_handle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_handle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/d_cnt" type="array">
+      <obj_property name="ElementShortName">d_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/i_cnt" type="array">
+      <obj_property name="ElementShortName">i_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/hi_clk" type="logic">
+      <obj_property name="ElementShortName">hi_clk</obj_property>
+      <obj_property name="ObjectShortName">hi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/hi_drive" type="logic">
+      <obj_property name="ElementShortName">hi_drive</obj_property>
+      <obj_property name="ObjectShortName">hi_drive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/hi_cmd" type="array">
+      <obj_property name="ElementShortName">hi_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_cmd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/hi_busy" type="logic">
+      <obj_property name="ElementShortName">hi_busy</obj_property>
+      <obj_property name="ObjectShortName">hi_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/hi_datain" type="array">
+      <obj_property name="ElementShortName">hi_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/hi_dataout" type="array">
+      <obj_property name="ElementShortName">hi_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/WireIns" type="array">
+      <obj_property name="ElementShortName">WireIns[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">WireIns[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/WireOuts" type="array">
+      <obj_property name="ElementShortName">WireOuts[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">WireOuts[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/Triggered" type="array">
+      <obj_property name="ElementShortName">Triggered[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Triggered[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/BlockDelayStates" type="array">
+      <obj_property name="ElementShortName">BlockDelayStates[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BlockDelayStates[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/ReadyCheckDelay" type="array">
+      <obj_property name="ElementShortName">ReadyCheckDelay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadyCheckDelay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/PostReadyDelay" type="array">
+      <obj_property name="ElementShortName">PostReadyDelay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PostReadyDelay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/pipeInSize" type="array">
+      <obj_property name="ElementShortName">pipeInSize[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeInSize[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/pipeOutSize" type="array">
+      <obj_property name="ElementShortName">pipeOutSize[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeOutSize[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/registerSetSize" type="array">
+      <obj_property name="ElementShortName">registerSetSize[31:0]</obj_property>
+      <obj_property name="ObjectShortName">registerSetSize[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/Tsys_clk" type="array">
+      <obj_property name="ElementShortName">Tsys_clk[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Tsys_clk[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/tSER" type="other">
+      <obj_property name="ElementShortName">tSER</obj_property>
+      <obj_property name="ObjectShortName">tSER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/tPD" type="other">
+      <obj_property name="ElementShortName">tPD</obj_property>
+      <obj_property name="ObjectShortName">tPD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/tFrame" type="other">
+      <obj_property name="ElementShortName">tFrame</obj_property>
+      <obj_property name="ObjectShortName">tFrame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/UPDATE_TO_READOUT_CLOCKS" type="array">
+      <obj_property name="ElementShortName">UPDATE_TO_READOUT_CLOCKS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UPDATE_TO_READOUT_CLOCKS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/Tti" type="array">
+      <obj_property name="ElementShortName">Tti[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Tti[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/Tep" type="other">
+      <obj_property name="ElementShortName">Tep</obj_property>
+      <obj_property name="ObjectShortName">Tep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/TDOUT_DELAY" type="array">
+      <obj_property name="ElementShortName">TDOUT_DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TDOUT_DELAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/TTRIG_DELAY" type="array">
+      <obj_property name="ElementShortName">TTRIG_DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TTRIG_DELAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/tCK" type="array">
+      <obj_property name="ElementShortName">tCK[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tCK[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider84">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/okUH" type="array">
+      <obj_property name="ElementShortName">okUH[4:0]</obj_property>
+      <obj_property name="ObjectShortName">okUH[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/okHU" type="array">
+      <obj_property name="ElementShortName">okHU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">okHU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/okUHU" type="array">
+      <obj_property name="ElementShortName">okUHU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">okUHU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/okAA" type="logic">
+      <obj_property name="ElementShortName">okAA</obj_property>
+      <obj_property name="ObjectShortName">okAA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/sys_clkp" type="logic">
+      <obj_property name="ElementShortName">sys_clkp</obj_property>
+      <obj_property name="ObjectShortName">sys_clkp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/sys_clkn" type="logic">
+      <obj_property name="ElementShortName">sys_clkn</obj_property>
+      <obj_property name="ObjectShortName">sys_clkn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_out_1p" type="array">
+      <obj_property name="ElementShortName">adc_out_1p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out_1p[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_out_1n" type="array">
+      <obj_property name="ElementShortName">adc_out_1n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out_1n[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_out_2p" type="array">
+      <obj_property name="ElementShortName">adc_out_2p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out_2p[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_out_2n" type="array">
+      <obj_property name="ElementShortName">adc_out_2n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out_2n[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_dco_p" type="logic">
+      <obj_property name="ElementShortName">adc_dco_p</obj_property>
+      <obj_property name="ObjectShortName">adc_dco_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_dco_n" type="logic">
+      <obj_property name="ElementShortName">adc_dco_n</obj_property>
+      <obj_property name="ObjectShortName">adc_dco_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_fr_p" type="logic">
+      <obj_property name="ElementShortName">adc_fr_p</obj_property>
+      <obj_property name="ObjectShortName">adc_fr_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_fr_n" type="logic">
+      <obj_property name="ElementShortName">adc_fr_n</obj_property>
+      <obj_property name="ObjectShortName">adc_fr_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_encode_p" type="logic">
+      <obj_property name="ElementShortName">adc_encode_p</obj_property>
+      <obj_property name="ObjectShortName">adc_encode_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_encode_n" type="logic">
+      <obj_property name="ElementShortName">adc_encode_n</obj_property>
+      <obj_property name="ObjectShortName">adc_encode_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_sdo" type="logic">
+      <obj_property name="ElementShortName">adc_sdo</obj_property>
+      <obj_property name="ObjectShortName">adc_sdo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_sdi" type="logic">
+      <obj_property name="ElementShortName">adc_sdi</obj_property>
+      <obj_property name="ObjectShortName">adc_sdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_cs_n" type="logic">
+      <obj_property name="ElementShortName">adc_cs_n</obj_property>
+      <obj_property name="ObjectShortName">adc_cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_sck" type="logic">
+      <obj_property name="ElementShortName">adc_sck</obj_property>
+      <obj_property name="ObjectShortName">adc_sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_data" type="array">
+      <obj_property name="ElementShortName">dac_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_data[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_clk" type="logic">
+      <obj_property name="ElementShortName">dac_clk</obj_property>
+      <obj_property name="ObjectShortName">dac_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_reset_pinmd" type="logic">
+      <obj_property name="ElementShortName">dac_reset_pinmd</obj_property>
+      <obj_property name="ObjectShortName">dac_reset_pinmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_sclk" type="logic">
+      <obj_property name="ElementShortName">dac_sclk</obj_property>
+      <obj_property name="ObjectShortName">dac_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_sdio" type="logic">
+      <obj_property name="ElementShortName">dac_sdio</obj_property>
+      <obj_property name="ObjectShortName">dac_sdio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_cs_n" type="logic">
+      <obj_property name="ElementShortName">dac_cs_n</obj_property>
+      <obj_property name="ObjectShortName">dac_cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/m_dbg_signal" type="array">
+      <obj_property name="ElementShortName">m_dbg_signal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_dbg_signal[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/okHE" type="array">
+      <obj_property name="ElementShortName">okHE[112:0]</obj_property>
+      <obj_property name="ObjectShortName">okHE[112:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/okEH" type="array">
+      <obj_property name="ElementShortName">okEH[64:0]</obj_property>
+      <obj_property name="ObjectShortName">okEH[64:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/ep40trig" type="array">
+      <obj_property name="ElementShortName">ep40trig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ep40trig[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/ep00data" type="array">
+      <obj_property name="ElementShortName">ep00data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ep00data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/ep01data" type="array">
+      <obj_property name="ElementShortName">ep01data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ep01data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/ep02data" type="array">
+      <obj_property name="ElementShortName">ep02data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ep02data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/pipea0_data" type="array">
+      <obj_property name="ElementShortName">pipea0_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pipea0_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/idelay_rdy" type="logic">
+      <obj_property name="ElementShortName">idelay_rdy</obj_property>
+      <obj_property name="ObjectShortName">idelay_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/ep_read" type="logic">
+      <obj_property name="ElementShortName">ep_read</obj_property>
+      <obj_property name="ObjectShortName">ep_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_clk" type="logic">
+      <obj_property name="ElementShortName">adc_clk</obj_property>
+      <obj_property name="ObjectShortName">adc_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_data_valid" type="logic">
+      <obj_property name="ElementShortName">adc_data_valid</obj_property>
+      <obj_property name="ObjectShortName">adc_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/prog_full" type="logic">
+      <obj_property name="ElementShortName">prog_full</obj_property>
+      <obj_property name="ObjectShortName">prog_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/acq_start" type="logic">
+      <obj_property name="ElementShortName">acq_start</obj_property>
+      <obj_property name="ObjectShortName">acq_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/status_signals" type="array">
+      <obj_property name="ElementShortName">status_signals[7:0]</obj_property>
+      <obj_property name="ObjectShortName">status_signals[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/enc_clk_locked" type="logic">
+      <obj_property name="ElementShortName">enc_clk_locked</obj_property>
+      <obj_property name="ObjectShortName">enc_clk_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/sys_clk_ibuf" type="logic">
+      <obj_property name="ElementShortName">sys_clk_ibuf</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_ibuf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/sys_clk_bufg" type="logic">
+      <obj_property name="ElementShortName">sys_clk_bufg</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_bufg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_data_out1" type="array">
+      <obj_property name="ElementShortName">adc_data_out1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_out1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_data_out2" type="array">
+      <obj_property name="ElementShortName">adc_data_out2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_out2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/fifo_reset" type="logic">
+      <obj_property name="ElementShortName">fifo_reset</obj_property>
+      <obj_property name="ObjectShortName">fifo_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/fifo_busy" type="logic">
+      <obj_property name="ElementShortName">fifo_busy</obj_property>
+      <obj_property name="ObjectShortName">fifo_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/rx_sample_counter" type="array">
+      <obj_property name="ElementShortName">rx_sample_counter[32:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sample_counter[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/main_state" type="array">
+      <obj_property name="ElementShortName">main_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">main_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/delay_counter" type="array">
+      <obj_property name="ElementShortName">delay_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_counter" type="array">
+      <obj_property name="ElementShortName">dac_counter[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_counter[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/tx_en" type="logic">
+      <obj_property name="ElementShortName">tx_en</obj_property>
+      <obj_property name="ObjectShortName">tx_en</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/adc_data_clk" type="logic">
+      <obj_property name="ElementShortName">adc_data_clk</obj_property>
+      <obj_property name="ObjectShortName">adc_data_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/phy_clk" type="logic">
+      <obj_property name="ElementShortName">phy_clk</obj_property>
+      <obj_property name="ObjectShortName">phy_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/okClk" type="logic">
+      <obj_property name="ElementShortName">okClk</obj_property>
+      <obj_property name="ObjectShortName">okClk</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/locked_dac_clk" type="logic">
+      <obj_property name="ElementShortName">locked_dac_clk</obj_property>
+      <obj_property name="ObjectShortName">locked_dac_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_spi_start" type="logic">
+      <obj_property name="ElementShortName">dac_spi_start</obj_property>
+      <obj_property name="ObjectShortName">dac_spi_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/dac_spi_full" type="array">
+      <obj_property name="ElementShortName">dac_spi_full[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_spi_full[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/idelay_ref" type="logic">
+      <obj_property name="ElementShortName">idelay_ref</obj_property>
+      <obj_property name="ObjectShortName">idelay_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/fifo_rd_cnt" type="array">
+      <obj_property name="ElementShortName">fifo_rd_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_cnt[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/okEHx" type="array">
+      <obj_property name="ElementShortName">okEHx[64:0]</obj_property>
+      <obj_property name="ObjectShortName">okEHx[64:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/main_idle" type="array">
+      <obj_property name="ElementShortName">main_idle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">main_idle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/rx_rdy" type="array">
+      <obj_property name="ElementShortName">rx_rdy[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_rdy[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/tx_init" type="array">
+      <obj_property name="ElementShortName">tx_init[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_init[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/tx_pulse_gen" type="array">
+      <obj_property name="ElementShortName">tx_pulse_gen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_pulse_gen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/rx_cnt" type="array">
+      <obj_property name="ElementShortName">rx_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/idle" type="array">
+      <obj_property name="ElementShortName">idle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/wait_for_lock" type="array">
+      <obj_property name="ElementShortName">wait_for_lock[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wait_for_lock[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/reset_state" type="array">
+      <obj_property name="ElementShortName">reset_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reset_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_xem7320/uut/delay_wait" type="array">
+      <obj_property name="ElementShortName">delay_wait[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_wait[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider84">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>
